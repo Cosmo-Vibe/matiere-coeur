@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Dyslexic";
+  src: url(../font/OpenDyslexic-Regular.woff2) format("woff2");
+}
+
+:root {
+  --font: var(--font-dyslexic, "Dyslexic", sans-serif);
+}
+
+* {
+  background-color: black;
+  color: white;
+  font: 100% var(--font);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 5dvh 3dvw 5dvh 3dvw;
+  /* padding: 1.5em; */
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+header {
+  grid-area: 1 / 2 / 2 / 12;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: auto;
+  height: 9dvh;
+}
+
+.settings {
+  width: 24px;
+  height: auto;
+}
+
+main {
+  grid-area: 2 / 2 / 3 / 12;
+  display: subgrid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.brain {
+  grid-area: 2 / 1 / 3 / 13;
+}
+
+.content {
+  grid-area: 3 / 1 / 4 / 13;
+}
+
+.heart {
+  grid-area: 4 / 1 / 5 / 13;
+  border: 1px solid white;
+}
+
+footer {
+  grid-area: 3 / 2 / 4 / 12;
+  text-align: center;
+  justify-self: center;
+}
