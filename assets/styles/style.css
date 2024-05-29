@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Dyslexic";
+  src: url(../font/OpenDyslexic-Regular.woff2) format("woff2");
+}
+
+:root {
+  --font: var(--font-dyslexic, "Dyslexic", sans-serif);
+}
+
+* {
+  color: white;
+  font: 100% var(--font);
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  margin: 2rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "content"
+    "heart"
+    "footer";
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "brain brain brain";
+  grid-area: header;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "logo logo settings settings";
+  grid-area: navbar;
+  border: 3px solid rgba(237, 240, 242, 0.164);
+  padding: 0.8rem;
+  border-radius: 3em;
+  background-color: rgba(12, 12, 12, 0.85);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 2rem;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "logo-svg header-tittle"
+    "logo-svg header-subtittle";
+  justify-self: start;
+  align-self: start;
+  grid-area: logo;
+}
+
+.logo-svg {
+  grid-area: logo-svg;
+  justify-self: start;
+  align-self: start;
+  width: auto;
+  height: 10dvh;
+}
+
+.header-tittle {
+  justify-self: baseline;
+  align-self: end;
+  grid-area: header-tittle;
+  font-size: 2rem;
+}
+
+.header-subtittle {
+  justify-self: baseline;
+  align-self: start;
+  grid-area: header-subtittle;
+  font-size: 1.1rem;
+}
+
+.settings {
+  justify-self: end;
+  align-self: start;
+  grid-area: settings;
+  width: auto;
+  height: 10dvh;
+}
+
+.brain {
+  grid-area: brain;
+}
+
+.content {
+  grid-area: content;
+  height: 100vh;
+}
+
+.heart {
+  grid-area: heart;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "tittle possibilities"
+    "agency possibilities";
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  grid-area: footer;
+  margin-top: 5rem;
+  background-color: #bc4747;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-footer {
+  justify-self: start;
+  align-self: start;
+  width: auto;
+  height: 10dvh;
+}
+
+.footer-tittle {
+  justify-self: center;
+  align-self: end;
+  grid-area: tittle;
+}
+.agency {
+  justify-self: center;
+  align-self: start;
+  grid-area: agency;
+}
+.possibilities {
+  justify-self: start;
+  align-self: center;
+  grid-area: possibilities;
+}
