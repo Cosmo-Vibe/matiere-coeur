@@ -128,3 +128,20 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initialize with default font and style properties
     updateStyleProperties();
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach(video => {
+    video.play()
+      .then(() => {
+        console.log(`Video ${video.src} is playing`);
+      })
+      .catch(error => {
+        console.error(`Error playing video ${video.src}:`, error);
+      });
+  });
+});
