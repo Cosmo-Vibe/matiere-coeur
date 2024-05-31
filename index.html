@@ -1,141 +1,458 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>matière coeur</title>
-    <link rel="stylesheet" href="./assets/styles/style.css" />
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/img/icons/favicon.ico"
-    />
-  </head>
-  <body>
-    <header>
-      <nav class="navBar">
-        <!-- Logo -->
-        <div class="logo">
-          <svg 
-          class="logo-svg" width="532" height="484" viewBox="0 0 532 484" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M299.967 374.043C161.437 392.953 142.087 288.173 229.887 226.193C234.467 222.963 230.887 220.823 225.617 222.753C176.927 240.533 152.677 273.383 161.727 326.743C161.897 327.743 161.227 328.733 160.247 328.903C30.2474 352.363 -12.1926 303.393 2.90742 206.823C3.11742 205.473 4.67742 204.873 5.74742 205.693C29.3574 223.753 53.8974 220.103 78.9274 205.163C84.8674 201.613 90.3874 197.323 95.3274 192.443C115.037 172.963 135.387 162.883 156.817 168.823C158.687 169.343 159.857 166.833 158.277 165.703C146.797 157.493 133.117 152.573 107.477 165.603C100.257 169.273 93.6474 174.093 87.6074 179.523C41.0774 221.273 -0.292581 207.433 13.6974 141.803C17.0874 125.903 24.4374 111.133 34.4474 98.4429C76.7374 44.8029 95.3874 52.0929 194.887 70.1829C205.887 72.1829 218.437 72.2529 226.887 67.1829C241.887 58.1829 243.887 55.1829 251.457 42.2929C252.257 40.9329 246.187 45.3029 244.887 46.1829C197.007 78.3629 164.347 51.2429 118.547 27.5929C117.547 27.0729 117.847 25.4429 118.857 24.9629C388.017 -87.7171 383.887 223.183 200.227 127.403C199.027 126.663 197.567 128.223 198.467 129.323C259.887 204.183 399.637 129.393 319.337 14.2429C366.557 -30.7571 508.327 55.4329 380.277 121.833C378.647 122.683 379.237 125.163 381.077 125.163C413.027 125.283 447.377 93.5529 443.777 60.1929C443.647 58.9829 444.677 57.9629 445.847 58.2029C510.637 71.5029 522.457 150.523 433.707 168.863C431.807 169.253 431.827 171.973 433.727 172.363C469.497 179.753 497.557 165.613 510.607 116.333C511.217 114.023 514.217 113.863 515.347 115.963C548.347 177.243 521.347 269.243 517.347 272.243C515.357 273.733 453.887 205.183 381.887 199.183C369.767 198.173 350.097 198.413 374.887 205.183C419.997 217.493 532.347 246.243 500.147 343.313C499.757 344.493 497.537 343.453 497.407 342.203C490.377 278.423 428.717 268.293 395.107 306.973C394.447 307.733 393.287 307.763 392.577 307.043C342.347 255.243 268.357 320.233 301.047 371.163C301.787 372.313 301.317 373.843 299.977 374.033L299.967 374.043Z" fill="#EFB499"/>
-            <path opacity="0.99" d="M392.567 477.413C393.647 483.613 401.707 485.343 405.257 480.153C429.567 444.523 482.777 387.403 480.877 345.483C478.547 294.013 424.447 283.523 398.537 330.113C397.997 331.083 396.617 331.143 395.997 330.233C365.897 286.173 310.357 301.553 312.687 353.033C314.407 390.903 354.977 397.283 371.457 410.213C375.197 413.153 378.857 422.753 381.657 432.283C384.567 442.183 392.567 477.413 392.567 477.413Z" fill="#C4453C"/>
-            </svg>
-            
-          <h1 class="header-tittle">matière coeur</h1>
-          <h2 class="header-subtittle">accessibilité & émotions</h2>
-        </div>
-        <!-- Settings -->
-        <a class="settings" href="#setting-window">
-          <svg
-            class="settings"
-            width="477"
-            height="490"
-            viewBox="0 0 477 490"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M60.2127 412.712C30.8726 381.708 10.6419 343.916 0.651367 303.549C16.3419 
-            297.887 30.1924 286.862 39.1857 271.286C59.413 236.251 47.4092 191.452 12.3743 171.224C10.255 170.001 8.10008 168.895 5.91696 
-            167.905C11.0465 152.521 17.7939 137.421 26.2182 122.829C38.9796 100.726 54.6752 81.3724 72.5293 64.9766C72.8231 65.1519 73.1187 
-            65.3253 73.416 65.497C108.451 85.7244 153.25 73.7205 173.477 38.6856C179.284 28.6278 182.435 17.7651 183.147 6.9113C220.728 
-            -1.70829 260.4 -1.49271 298.801 8.45782C297.419 35.0795 310.67 61.5062 335.339 75.749C360.009 89.9919 389.52 88.2541 411.885 
-            73.7468C439.703 102.028 459.725 136.276 471.051 173.133C462.007 179.176 454.175 187.336 448.368 197.394C428.141 232.429 440.145 
-            277.228 475.18 297.455C475.477 297.627 475.775 297.796 476.074 297.963C470.801 321.623 461.889 344.893 449.127 366.996C440.703 
-            381.587 431 394.981 420.241 407.115C418.292 405.719 416.258 404.407 414.138 403.183C379.103 382.955 334.304 394.959 314.077 
-            429.994C305.083 445.571 302.461 463.078 305.402 479.497C265.449 491.029 222.605 492.404 181.084 482.497C187.676 452.196 174.403 
-            419.838 146.11 403.504C117.818 387.169 83.1581 391.853 60.2127 412.712ZM179.173 346.238C235.133 378.546 306.689 359.373 338.998 
-            303.413C371.307 247.452 352.133 175.896 296.173 143.588C240.213 111.279 168.657 130.452 136.348 186.413C104.039 242.373 123.213 
-            313.929 179.173 346.238ZM302.952 282.5C282.241 318.372 236.372 330.663 200.5 309.952C164.628 289.241 152.338 243.372 173.048 
-            207.5C193.759 171.628 239.628 159.338 275.5 180.048C311.372 200.759 323.663 246.628 302.952 282.5Z"
-              fill="#F2F2F2"
-            />
-          </svg>
-        </a>
-      </nav>
-      <!-- Brain video -->
-      <div class="brain">
-        <video
-          src="./assets/videos/brain.webm"
-          autoplay
-          loop
-          width="100%"
-          height="auto"
-          preload="auto"
-          poster="./assets/img/poster/brain-poster.png"
-        >
-          <track
-            kind="subtitles"
-            label="Video caption"
-            src="./assets/videos/captions/brain_Subtitles.vtt"
-            srclang="fr-FR"
-            default
-          />
-        </video>
-      </div>
-    </header>
-    <main>
-      <section class="content">
-        TESTING
-        <!-- <lottie-player src="./assets/" background="transparent" speed="1" loop autoplay></lottie-player> -->
-      </section>
-      <section class="heart">
-        <video
-          src="./assets/videos/heart.webm"
-          autoplay
-          loop
-          width="100%"
-          height="auto"
-          preload="auto"
-          poster="./assets/img/poster/heart-poster.png"
-        >
-          <track
-            kind="description"
-            label="Video caption"
-            src="./assets/videos/captions/heart_Subtitles.vtt"
-            srclang="fr-FR"
-            default
-          />
-      </video>
-      </section>
-    </main>
-
-    
-    <footer class="footer">
-      <div class="footer-tittle">
-        <svg class="logo-footer" width="605" height="587" viewBox="0 0 605 587" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="302.703" cy="293.633" rx="301.95" ry="292.981" fill="white"/>
-        <g clip-path="url(#clip0_209_28)">
-        <path d="M330.985 426.49C243.988 438.986 216.184 380.928 253.794 335.307C257.142 331.241 251.82 325.68 248.054 329.328C233.046 343.678 226.827 363.708 231.132 390.615C231.252 391.392 230.774 392.109 230.056 392.229C136.182 410.047 105.569 372.856 116.451 299.551C116.63 298.535 117.767 298.056 118.484 298.714C136.721 314.439 195.436 274.917 199.383 270.373C207.335 261.284 201.774 264.872 200.1 266.606C196.094 270.612 106.944 313.662 124.224 250.223C127.453 238.384 131.997 226.964 139.232 217.337C169.786 176.619 209.607 157.366 210.325 157.007C402.975 72.2216 368.355 304.933 261.866 241.075C260.371 240.178 258.996 239.101 257.68 237.906C255.587 236.052 257.202 239.998 257.68 240.716C296.186 301.644 391.555 237.666 350.298 155.871C346.711 148.815 351.374 140.265 358.968 139.966C398.969 138.172 464.202 179.309 486.564 230.611C507.193 277.966 491.527 348.401 487.999 349.238C481.123 350.853 441.78 293.094 390.359 293.751C384.021 293.811 378.759 300.807 386.472 300.807C417.504 300.807 493.381 328.909 475.563 403.231C475.323 404.128 473.709 403.35 473.589 402.394C468.687 355.457 426.653 346.787 401.958 373.096C400.165 375.009 397.295 374.949 395.441 373.155C359.267 338.536 308.743 386.549 331.822 424.337C332.36 425.234 332.002 426.37 331.045 426.49H330.985Z" fill="#EFB499"/>
-        <path opacity="0.99" d="M395.441 516.418C396.219 521.141 402.018 522.457 404.589 518.51C422.168 491.484 462.05 433.665 460.674 401.856C459 362.812 419.896 354.8 401.181 390.197C400.823 390.914 399.806 390.974 399.328 390.256C377.563 356.832 337.503 368.492 339.177 407.536C340.432 436.296 362.197 458.061 374.095 467.866C379.058 471.992 382.407 477.852 383.483 484.369L395.381 516.358L395.441 516.418Z" fill="#E02207"/>
-        </g>
-        <defs>
-        <clipPath id="clip0_209_28">
-        <rect width="382.67" height="382.67" fill="white" transform="translate(114.358 138.173)"/>
-        </clipPath>
-        </defs>
-        </svg>
-        <h3>matière coeur®</h3>
-        
-    </div>
-      <div class="agency">
-        <p>L’agence ICANOSSM (chercher un nom) vous <br>
-          présente son projet “matière coeur” qui <br>
-          porte un beau message sur la diversité <br>
-          neurodé et l’accessibilité numérique.<br>
-          Avec ce site innovant découvrez les <br>
-          différents raisonnements et ressentis d’un <br>
-          être amoureux.</p>
-      </div>
-      <div class="possibilities"></div>
-    </footer>
-
-    <script src="./assets/scripts/script.js"></script>
-    <script src="./assets/scripts/brain/lottie.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  </body>
+<html lang="fr-FR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>matière coeur</title>
+      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <link rel="stylesheet" href="./assets/styles/settings-window.css" />
+      <!-- Favicon -->
+      <link
+         rel="icon"
+         type="image/x-icon"
+         href="./assets/img/icons/V3-favicon.ico"
+         />
+   </head>
+   <body>
+      <header>
+         <nav class="navBar">
+            <div class="header-tittle-wrapper">
+               <!-- Logo -->
+               <div class="logo">
+                  <svg
+                     class="logo-svg"
+                     width="532"
+                     height="484"
+                     viewBox="0 0 532 484"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        d="M299.967 374.043C161.437 392.953 142.087 288.173 229.887 226.193C234.467 222.963 230.887 220.823 225.617 222.753C176.927 240.533 152.677 273.383 161.727 326.743C161.897 327.743 161.227 328.733 160.247 328.903C30.2474 352.363 -12.1926 303.393 2.90742 206.823C3.11742 205.473 4.67742 204.873 5.74742 205.693C29.3574 223.753 53.8974 220.103 78.9274 205.163C84.8674 201.613 90.3874 197.323 95.3274 192.443C115.037 172.963 135.387 162.883 156.817 168.823C158.687 169.343 159.857 166.833 158.277 165.703C146.797 157.493 133.117 152.573 107.477 165.603C100.257 169.273 93.6474 174.093 87.6074 179.523C41.0774 221.273 -0.292581 207.433 13.6974 141.803C17.0874 125.903 24.4374 111.133 34.4474 98.4429C76.7374 44.8029 95.3874 52.0929 194.887 70.1829C205.887 72.1829 218.437 72.2529 226.887 67.1829C241.887 58.1829 243.887 55.1829 251.457 42.2929C252.257 40.9329 246.187 45.3029 244.887 46.1829C197.007 78.3629 164.347 51.2429 118.547 27.5929C117.547 27.0729 117.847 25.4429 118.857 24.9629C388.017 -87.7171 383.887 223.183 200.227 127.403C199.027 126.663 197.567 128.223 198.467 129.323C259.887 204.183 399.637 129.393 319.337 14.2429C366.557 -30.7571 508.327 55.4329 380.277 121.833C378.647 122.683 379.237 125.163 381.077 125.163C413.027 125.283 447.377 93.5529 443.777 60.1929C443.647 58.9829 444.677 57.9629 445.847 58.2029C510.637 71.5029 522.457 150.523 433.707 168.863C431.807 169.253 431.827 171.973 433.727 172.363C469.497 179.753 497.557 165.613 510.607 116.333C511.217 114.023 514.217 113.863 515.347 115.963C548.347 177.243 521.347 269.243 517.347 272.243C515.357 273.733 453.887 205.183 381.887 199.183C369.767 198.173 350.097 198.413 374.887 205.183C419.997 217.493 532.347 246.243 500.147 343.313C499.757 344.493 497.537 343.453 497.407 342.203C490.377 278.423 428.717 268.293 395.107 306.973C394.447 307.733 393.287 307.763 392.577 307.043C342.347 255.243 268.357 320.233 301.047 371.163C301.787 372.313 301.317 373.843 299.977 374.033L299.967 374.043Z"
+                        fill="#EFB499"
+                        />
+                     <path
+                        opacity="0.99"
+                        d="M392.567 477.413C393.647 483.613 401.707 485.343 405.257 480.153C429.567 444.523 482.777 387.403 480.877 345.483C478.547 294.013 424.447 283.523 398.537 330.113C397.997 331.083 396.617 331.143 395.997 330.233C365.897 286.173 310.357 301.553 312.687 353.033C314.407 390.903 354.977 397.283 371.457 410.213C375.197 413.153 378.857 422.753 381.657 432.283C384.567 442.183 392.567 477.413 392.567 477.413Z"
+                        fill="#C4453C"
+                        />
+                  </svg>
+               </div>
+               <div class="header-tittle unmodifiable">
+                  <h1 class="header-tittle unmodifiable" style="color: var(--placeholder-color);">matière coeur</h1>
+                  <h2 class="header-subtittle unmodifiable" style="color: var(--slider-thumb-color);">accessibilité & émotions</h2>
+               </div>
+            </div>
+            <div class="settings">
+            </div>
+            <!-- Settings window -->
+            <div class="burger-menu">
+               <button class="burger-button" id="burger-button">
+                  <svg
+                     class="settings-svg"
+                     width="477"
+                     height="490"
+                     viewBox="0 0 477 490"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
+                     <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M60.2127 412.712C30.8726 381.708 10.6419 343.916 0.651367 303.549C16.3419 
+                        297.887 30.1924 286.862 39.1857 271.286C59.413 236.251 47.4092 191.452 12.3743 171.224C10.255 170.001 8.10008 168.895 5.91696 
+                        167.905C11.0465 152.521 17.7939 137.421 26.2182 122.829C38.9796 100.726 54.6752 81.3724 72.5293 64.9766C72.8231 65.1519 73.1187 
+                        65.3253 73.416 65.497C108.451 85.7244 153.25 73.7205 173.477 38.6856C179.284 28.6278 182.435 17.7651 183.147 6.9113C220.728 
+                        -1.70829 260.4 -1.49271 298.801 8.45782C297.419 35.0795 310.67 61.5062 335.339 75.749C360.009 89.9919 389.52 88.2541 411.885 
+                        73.7468C439.703 102.028 459.725 136.276 471.051 173.133C462.007 179.176 454.175 187.336 448.368 197.394C428.141 232.429 440.145 
+                        277.228 475.18 297.455C475.477 297.627 475.775 297.796 476.074 297.963C470.801 321.623 461.889 344.893 449.127 366.996C440.703 
+                        381.587 431 394.981 420.241 407.115C418.292 405.719 416.258 404.407 414.138 403.183C379.103 382.955 334.304 394.959 314.077 
+                        429.994C305.083 445.571 302.461 463.078 305.402 479.497C265.449 491.029 222.605 492.404 181.084 482.497C187.676 452.196 174.403 
+                        419.838 146.11 403.504C117.818 387.169 83.1581 391.853 60.2127 412.712ZM179.173 346.238C235.133 378.546 306.689 359.373 338.998 
+                        303.413C371.307 247.452 352.133 175.896 296.173 143.588C240.213 111.279 168.657 130.452 136.348 186.413C104.039 242.373 123.213 
+                        313.929 179.173 346.238ZM302.952 282.5C282.241 318.372 236.372 330.663 200.5 309.952C164.628 289.241 152.338 243.372 173.048 
+                        207.5C193.759 171.628 239.628 159.338 275.5 180.048C311.372 200.759 323.663 246.628 302.952 282.5Z"
+                        fill="#F2F2F2"
+                        />
+                  </svg>
+               </button>
+               <div class="menu-content" id="menu-content">
+                  <button class="close-button" id="close-button">
+                     <svg
+                        class="settings-svg"
+                        width="477"
+                        height="490"
+                        viewBox="0 0 477 490"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                           fill-rule="evenodd"
+                           clip-rule="evenodd"
+                           d="M60.2127 412.712C30.8726 381.708 10.6419 343.916 0.651367 303.549C16.3419 
+                           297.887 30.1924 286.862 39.1857 271.286C59.413 236.251 47.4092 191.452 12.3743 171.224C10.255 170.001 8.10008 168.895 5.91696 
+                           167.905C11.0465 152.521 17.7939 137.421 26.2182 122.829C38.9796 100.726 54.6752 81.3724 72.5293 64.9766C72.8231 65.1519 73.1187 
+                           65.3253 73.416 65.497C108.451 85.7244 153.25 73.7205 173.477 38.6856C179.284 28.6278 182.435 17.7651 183.147 6.9113C220.728 
+                           -1.70829 260.4 -1.49271 298.801 8.45782C297.419 35.0795 310.67 61.5062 335.339 75.749C360.009 89.9919 389.52 88.2541 411.885 
+                           73.7468C439.703 102.028 459.725 136.276 471.051 173.133C462.007 179.176 454.175 187.336 448.368 197.394C428.141 232.429 440.145 
+                           277.228 475.18 297.455C475.477 297.627 475.775 297.796 476.074 297.963C470.801 321.623 461.889 344.893 449.127 366.996C440.703 
+                           381.587 431 394.981 420.241 407.115C418.292 405.719 416.258 404.407 414.138 403.183C379.103 382.955 334.304 394.959 314.077 
+                           429.994C305.083 445.571 302.461 463.078 305.402 479.497C265.449 491.029 222.605 492.404 181.084 482.497C187.676 452.196 174.403 
+                           419.838 146.11 403.504C117.818 387.169 83.1581 391.853 60.2127 412.712ZM179.173 346.238C235.133 378.546 306.689 359.373 338.998 
+                           303.413C371.307 247.452 352.133 175.896 296.173 143.588C240.213 111.279 168.657 130.452 136.348 186.413C104.039 242.373 123.213 
+                           313.929 179.173 346.238ZM302.952 282.5C282.241 318.372 236.372 330.663 200.5 309.952C164.628 289.241 152.338 243.372 173.048 
+                           207.5C193.759 171.628 239.628 159.338 275.5 180.048C311.372 200.759 323.663 246.628 302.952 282.5Z"
+                           fill="#F2F2F2"
+                           />
+                     </svg>
+                  </button>
+                  <div class="font-options">
+                     <div class="font-selector-container">
+                        <label for="font-selector">Choose Font:</label>
+                        <select id="font-selector">
+                           <option value="Arial">Arial</option>
+                           <option value="Georgia">Georgia</option>
+                           <option value="Courier New">Courier New</option>
+                           <option value="Verdana">Verdana</option>
+                           <option value="Times New Roman">Times New Roman</option>
+                        </select>
+                     </div>
+                     <div class="font-url-container">
+                        <label for="font-url-input">Font URL:</label>
+                        <input
+                           type="text"
+                           id="font-url-input"
+                           class="font-url-input"
+                           placeholder="Enter Google Font URL"
+                           />
+                        <button id="apply-font-button" class="apply-font-button">
+                        Apply Font
+                        </button>
+                        <button id="reset-button" class="reset-button">
+                        Reset
+                        </button>
+                     </div>
+                  </div>
+                  <div class="slider-container">
+                     <div class="slider">
+                        <label for="font-size-slider">Font Size:</label>
+                        <input type="range" id="font-size-slider" min="20" max="40" value="20"/>
+                     </div>
+                     <div class="slider">
+                        <label for="letter-spacing-slider">Letter Spacing:</label>
+                        <input type="range" id="letter-spacing-slider" min="0" max="10" value="0"/>
+                     </div>
+                     <div class="slider">
+                        <label for="word-spacing-slider">Word Spacing:</label>
+                        <input type="range" id="word-spacing-slider" min="0" max="20" value="0"/>
+                     </div>
+                     <div class="slider">
+                        <label for="line-height-slider">Line Height:</label>
+                        <input type="range" id="line-height-slider" min="1" max="2" step="0.1" value="1"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Main -->
+      <main>
+         <!-- Brain video -->
+         <div class="brain">
+            <video preload="auto" loop width="100%" height="auto" autoplay>
+            <source src="./assets/videos/brain.webm" type="video/webm">
+            <track
+               kind="captions"
+               label="French subtitles"
+               src="./assets/videos/captions/brain_Subtitles.vtt"
+               srclang="fr"
+               default/>
+         </div>
+         <!-- Content -->
+         <!-- <img src="./assets/img/icons/check.svg" alt="Une cohce verte (signifiant du positif ici)" class="txt-ico">
+         <img src="./assets/img/icons/cross.svg" alt="Une croix rouge (signifiant du négatif ici)" class="txt-ico"> -->
+         <section class="content">
+            <div class="txt-box text-box-1">
+               <h3>Autisme (Autism Spectrum Disorder) </h3>
+               <h4>Description :</h4>
+               <p>L'autisme est un trouble neurodéveloppemental affectant la communication, le comportement et les interactions sociales. Les personnes autistes peuvent avoir une approche très logique et structurée de la pensée.</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les personnes autistes peuvent avoir une approche très logique et structurée de la pensée, mais peuvent éprouver des difficultés à comprendre et à exprimer des émotions de manière conventionnelle. Leur raisonnement peut souvent sembler détaché des émotions, se concentrant sur des faits et des logiques claires.</p>
+               <h4>Conclusion :</h4>
+               <p>Les personnes autistes tendent à s'appuyer davantage sur la raison que sur les émotions dans leurs prises de décisions.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "Je sais que ce changement peut être déroutant. Voici un plan détaillé de ce qui va se passer, pour que tu puisses te préparer."<br>
+                  À éviter : "Pourquoi tu réagis toujours comme ça ? C'est juste un petit changement, ce n'est pas la fin du monde."
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de communication augmentative et alternative (CAA) : Utiliser des outils comme Proloquo2Go pour aider à la communication.<br>
+                  Sites web structurés et prévisibles : Créer des sites avec une navigation claire et des éléments prévisibles pour réduire l'anxiété.<br>
+                  Réseaux sociaux : Intégrer des guides visuels et des routines pour aider à la navigation et à l'interaction.<br>
+                  Messageries : Utiliser des messageries avec des fonctionnalités de transcription et de traduction pour faciliter la communication.
+               </p>
+            </div>
+            <lottie-player
+               class="player lottie-1"
+               src="./assets/videos/Tronc_centre.json"
+               background="transparent"
+               speed="1"
+               loop
+               autoplay
+               ></lottie-player>
+            <div class="txt-box text-box-2">
+               <h3>Troubles visuels (Daltonisme, Cécité, Malvoyance)</h3>
+               <h4>Description :</h4>
+               <p>Cette catégorie inclut le daltonisme (déficience rouge, vert, bleu), la cécité et la malvoyance. Ces troubles affectent la perception des couleurs et la capacité visuelle globale.</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les personnes avec des troubles visuels peuvent avoir une approche rationnelle pour s'adapter à leur environnement, mais peuvent également ressentir de la frustration ou de l'isolement en raison de leurs limitations. L'accessibilité et l'inclusivité sont cruciales pour leur intégration.</p>
+               <h4>Conclusion :</h4>
+               <p>Les troubles visuels peuvent amener les individus à prendre des décisions basées sur des adaptations rationnelles à leur environnement, mais les émotions de frustration ou d'isolement peuvent également jouer un rôle.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "Comment puis-je adapter cet espace pour qu'il soit plus accessible pour toi ?"<br>
+                  À éviter : "Pourquoi tu as besoin de tant de changements ? Tu peux bien voir suffisamment."
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de lecture d'écran : Utiliser des outils comme NVDA ou JAWS pour aider à la navigation web.<br>
+                  Sites web accessibles : Créer des sites conformes aux normes WCAG avec des contrastes élevés et des descriptions alternatives pour les images.<br>
+                  Réseaux sociaux : Intégrer des fonctionnalités d'accessibilité comme les sous-titres et les descriptions audio.<br>
+                  Messageries : Utiliser des plateformes avec des options de texte en braille et des lecteurs d'écran intégrés.
+               </p>
+            </div>
+            <lottie-player
+               class="player lottie-2"
+               src="./assets/videos/Tronc_direction_gauche.json"
+               background="transparent"
+               speed="1"
+               loop
+               autoplay
+               ></lottie-player>
+            <div class="txt-box text-box-3">
+               <h3>Troubles d'apprentissage et sensoriels (Dyslexie, Dyscalculie, Dyspraxie, Dysgraphie, Misophonie, Traitement sensoriel)</h3>
+               <h4>Description :</h4>
+               <p>Cette catégorie inclut des troubles comme la dyslexie, la dyscalculie, la dyspraxie, la dysgraphie, la misophonie et les troubles du traitement sensoriel. Ces troubles affectent diverses capacités comme la lecture, l'écriture, le calcul, la coordination motrice et la sensibilité sensorielle.</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les personnes avec ces troubles peuvent éprouver des frustrations et de l'anxiété en raison de leurs difficultés. Leur raisonnement peut être rationnel, mais les obstacles pratiques et les réactions émotionnelles peuvent interférer avec leurs capacités de traitement et de prise de décision.</p>
+               <h4>Conclusion :</h4>
+               <p>Ces troubles entraînent souvent une combinaison de décisions rationnelles et émotionnelles, influencées par les frustrations et les défis pratiques.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "Je sais que cette tâche peut être difficile. Prenons notre temps et trouvons des outils qui peuvent rendre cela plus facile pour toi."<br>
+                  À éviter : "Pourquoi tu n'arrives jamais à faire ça correctement ? C'est vraiment simple."
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de soutien à l'apprentissage : Utiliser des applications comme Ghotit Real Writer pour aider à l'écriture, ou ModMath pour les mathématiques.<br>
+                  Sites web accessibles : Créer des sites avec des options de lecture audio et des polices adaptées aux dyslexiques.<br>
+                  Réseaux sociaux : Intégrer des sous-titres et des descriptions audio pour les contenus visuels.<br>
+                  Messageries : Offrir des options de transcription et de traduction pour faciliter la communication.
+               </p>
+            </div>
+            <lottie-player
+               class="player lottie-3"
+               src="./assets/videos/Tronc_direction_droite.json"
+               background="transparent"
+               speed="1"
+               loop
+               autoplay
+               ></lottie-player>
+            <div class="txt-box text-box-4">
+               <h3>TOC (Trouble Obsessionnel-Compulsif)</h3>
+               <h4>Description :</h4>
+               <p>Le TOC est un trouble mental caractérisé par des obsessions (pensées intrusives récurrentes) et des compulsions (comportements répétitifs visant à réduire l'anxiété).</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les personnes avec TOC peuvent se retrouver piégées dans des cycles de pensée irrationnelle et de comportements répétitifs, souvent guidés par des émotions d'anxiété intense. Cela peut interférer avec la prise de décisions rationnelles.</p>
+               <h4>Conclusion :</h4>
+               <p>Le TOC pousse souvent les individus à des décisions basées sur des compulsions et des émotions d'anxiété plutôt que sur la raison.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "Je vois que tu es inquiet. Dis-moi comment je peux t'aider à te sentir plus à l'aise."<br>
+                  À éviter : "Arrête de faire ça, tu es ridicule. Il n'y a rien à craindre."
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de gestion de l'anxiété : Utiliser des applications comme Headspace ou Calm pour aider à gérer l'anxiété.<br>
+                  Réseaux sociaux : Créer des groupes de soutien pour partager des stratégies de gestion.
+               </p>
+            </div>
+         </section>
+         <section class="content2">
+            <lottie-player
+               class="player lottie-4"
+               src="./assets/videos/Tronc_centre.json"
+               background="transparent"
+               speed="1"
+               loop
+               autoplay
+               ></lottie-player>
+            <div class="txt-box text-box-5">
+               <h3>Schizophrénie</h3>
+               <h4>Description :</h4>
+               <p>La schizophrénie est un trouble mental grave caractérisé par des hallucinations, des délires et une pensée désorganisée. Les personnes atteintes de schizophrénie peuvent avoir des difficultés à distinguer la réalité de leurs perceptions internes.</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les hallucinations et les délires peuvent fortement perturber le raisonnement rationnel, amenant les personnes à prendre des décisions basées sur des perceptions déformées. Émotionnellement, elles peuvent éprouver de l'anxiété, de la peur ou de la confusion en raison de leurs expériences psychotiques.</p>
+               <h4>Conclusion :</h4>
+               <p>La schizophrénie peut pousser les individus vers des décisions influencées par des perceptions irrationnelles et des émotions perturbées.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "Je comprends que ce que tu vis est très réel pour toi. Je suis là pour t'écouter et t'aider de la meilleure façon possible."<br>
+                  À éviter : "Tu imagines des choses. Rien de ce que tu dis n'est vrai."
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de suivi de traitement : Utiliser des applications comme Medisafe pour suivre les médicaments et les rendez-vous.<br>
+                  Réseaux sociaux : Créer des communautés en ligne pour partager des expériences et obtenir du soutien.<br>
+                  Messageries : Utiliser des fonctionnalités de chat sécurisées pour discuter avec des professionnels de santé mentale.<br>
+                  Sites web : Intégrer des sections d'auto-assistance et de gestion de crise avec des ressources et des contacts d'urgence.
+               </p>
+            </div>
+            <lottie-player
+               class="player lottie-5"
+               src="./assets/videos/Tronc_direction_gauche.json"
+               background="transparent"
+               speed="1"
+               loop
+               autoplay
+               ></lottie-player>
+            <div class="txt-box text-box-6">
+               <h3>Bipolaire (Bipolar Disorder)</h3>
+               <h4>Description :</h4>
+               <p>Le trouble bipolaire est un trouble de l'humeur caractérisé par des épisodes alternants de dépression et de manie ou d'hypomanie. Les phases maniaques peuvent inclure une énergie élevée, une impulsivité et des prises de risques, tandis que les phases dépressives incluent une tristesse profonde et une perte d'intérêt.</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les personnes bipolaires peuvent éprouver des fluctuations extrêmes dans leur raisonnement et leurs émotions. En phase maniaque, elles peuvent prendre des décisions impulsives sans considérer les conséquences, tandis qu'en phase dépressive, leur capacité de prise de décision peut être entravée par des pensées négatives.</p>
+               <h4>Conclusion :</h4>
+               <p>Les personnes bipolaires peuvent osciller entre des décisions basées sur l'impulsion et des périodes de réflexion profonde, souvent influencées par leur état émotionnel actuel.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "Je suis ici pour toi, peu importe ce que tu traverses. Comment puis-je t'aider à te sentir mieux en ce moment ?"<br>
+                  À éviter : "Encore une crise ? Pourquoi tu ne peux pas juste être normal ?"
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de suivi de l'humeur : Utiliser des applications comme Moodpath ou Daylio pour suivre et gérer les humeurs.<br>
+                  Réseaux sociaux : Créer des groupes de soutien en ligne pour partager des expériences et des conseils.<br>
+                  Messageries : Utiliser des fonctionnalités de rappel et de notification pour suivre les médicaments et les rendez-vous.<br>
+                  Sites web : Intégrer des sections d'auto-assistance et de gestion de crise avec des ressources et des contacts d'urgence.
+               </p>
+            </div>
+            <lottie-player
+               class="player lottie-6"
+               src="./assets/videos/Tronc_direction_droite.json"
+               background="transparent"
+               speed="1"
+               loop
+               autoplay
+               ></lottie-player>
+            <div class="txt-box text-box-7">
+               <h3>TDAH (Trouble du Déficit de l'Attention avec ou sans Hyperactivité) et Hypersensibilité</h3>
+               <h4>Description :</h4>
+               <p>Le TDAH est un trouble neurodéveloppemental caractérisé par des symptômes d'inattention, d'hyperactivité et d'impulsivité. Souvent accompagné d'hypersensibilité émotionnelle et sensorielle, les personnes atteintes de TDAH peuvent réagir intensément à des stimuli sensoriels et émotionnels.</p>
+               <h4>Impact sur le raisonnement rationnel et émotionnel :</h4>
+               <p>Les personnes avec TDAH peuvent avoir du mal à se concentrer et à organiser leurs pensées de manière rationnelle, surtout en présence de distractions. L'hypersensibilité peut les rendre émotionnellement réactives et impulsives, influençant leurs décisions.</p>
+               <h4>Conclusion :</h4>
+               <p>Les personnes atteintes de TDAH sont souvent plus enclines à des décisions basées sur les émotions et les impulsions plutôt que sur la raison.</p>
+               <h4>Comment communiquer efficacement :</h4>
+               <p>Efficace : "J'apprécie beaucoup ta contribution, et j'aimerais discuter avec toi d'une manière qui peut nous aider à mieux nous concentrer. Pouvons-nous trouver un endroit calme pour parler ?"<br>
+                  À éviter : "Tu ne peux jamais rester concentré sur quoi que ce soit ! Pourquoi es-tu toujours aussi distrait ?"
+               </p>
+               <h4>Solutions digitales :</h4>
+               <p>Applications de gestion du temps et de tâches : Utiliser des applications comme Trello ou Todoist pour aider à structurer les tâches et à maintenir la concentration.<br>
+                  Notifications personnalisées : Paramétrer des notifications discrètes et non invasives pour éviter les interruptions fréquentes.<br>
+                  Environnements numériques calmes : Créer des interfaces utilisateur avec des designs épurés et sans distractions pour faciliter la concentration.<br>
+                  Réseaux sociaux : Offrir des options de filtrage des contenus pour minimiser les distractions et les surcharges d'informations.
+               </p>
+            </div>
+         </section>
+         <!-- Heart video -->
+         <section class="heart">
+            <video preload="auto" loop width="100%" height="auto" autoplay>
+               <!-- poster="./assets/img/poster/heart-poster.png" -->
+               <source src="./assets/videos/heart.webm" type="video/webm"/>
+               <track
+                  kind="captions"
+                  label="Video captions"
+                  src="./assets/videos/captions/heart_Subtitles.vtt"
+                  srclang="fr-FR"
+                  default
+                  />
+            </video>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer">
+         <div class="footer-left">
+            <div class="footer-top">
+               <svg
+                  class="logo-footer footer-top-svg"
+                  width="605"
+                  height="587"
+                  viewBox="0 0 605 587"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <ellipse
+                     cx="302.703"
+                     cy="293.633"
+                     rx="301.95"
+                     ry="292.981"
+                     fill="white"
+                     />
+                  <g clip-path="url(#clip0_209_28)">
+                     <path
+                        d="M330.985 426.49C243.988 438.986 216.184 380.928 253.794 335.307C257.142 331.241 251.82 325.68 248.054 329.328C233.046 343.678 226.827 363.708 231.132 390.615C231.252 391.392 230.774 392.109 230.056 392.229C136.182 410.047 105.569 372.856 116.451 299.551C116.63 298.535 117.767 298.056 118.484 298.714C136.721 314.439 195.436 274.917 199.383 270.373C207.335 261.284 201.774 264.872 200.1 266.606C196.094 270.612 106.944 313.662 124.224 250.223C127.453 238.384 131.997 226.964 139.232 217.337C169.786 176.619 209.607 157.366 210.325 157.007C402.975 72.2216 368.355 304.933 261.866 241.075C260.371 240.178 258.996 239.101 257.68 237.906C255.587 236.052 257.202 239.998 257.68 240.716C296.186 301.644 391.555 237.666 350.298 155.871C346.711 148.815 351.374 140.265 358.968 139.966C398.969 138.172 464.202 179.309 486.564 230.611C507.193 277.966 491.527 348.401 487.999 349.238C481.123 350.853 441.78 293.094 390.359 293.751C384.021 293.811 378.759 300.807 386.472 300.807C417.504 300.807 493.381 328.909 475.563 403.231C475.323 404.128 473.709 403.35 473.589 402.394C468.687 355.457 426.653 346.787 401.958 373.096C400.165 375.009 397.295 374.949 395.441 373.155C359.267 338.536 308.743 386.549 331.822 424.337C332.36 425.234 332.002 426.37 331.045 426.49H330.985Z"
+                        fill="#EFB499"
+                        />
+                     <path
+                        opacity="0.99"
+                        d="M395.441 516.418C396.219 521.141 402.018 522.457 404.589 518.51C422.168 491.484 462.05 433.665 460.674 401.856C459 362.812 419.896 354.8 401.181 390.197C400.823 390.914 399.806 390.974 399.328 390.256C377.563 356.832 337.503 368.492 339.177 407.536C340.432 436.296 362.197 458.061 374.095 467.866C379.058 471.992 382.407 477.852 383.483 484.369L395.381 516.358L395.441 516.418Z"
+                        fill="#E02207"
+                        />
+                  </g>
+                  <defs>
+                     <clipPath id="clip0_209_28">
+                        <rect
+                           width="382.67"
+                           height="382.67"
+                           fill="white"
+                           transform="translate(114.358 138.173)"
+                           />
+                     </clipPath>
+                  </defs>
+               </svg>
+               <h3 class="unmodifiable">matière coeur®</h3>
+            </div>
+            <div class="agency unmodifiable">
+               <p class="unmodifiable">
+                  L&apos;agence ICANOSSM (chercher un nom) vous présente son projet “matière
+                  coeur” qui porte un beau message sur la diversité neurodé et
+                  l&apos;accessibilité numérique. Avec ce site innovant découvrez les
+                  différents raisonnements et ressentis d&apos;un être amoureux.
+               </p>
+            </div>
+         </div>
+         <div class="unmodifiable footer-right">
+            <div class="footer-tittle-right">
+              <p class="unmodifiable">
+               Rendez vos idées possibles !
+              </p>
+              <p class="unmodifiable">
+                Contactez-nous dès maintenant
+              </p>
+            </div>
+            <div class="footer-about">
+               <div class="oce-pic"><img class="profil-pictures" src="./assets/img/pictures/dos-santos-picture.jpg" alt="Photo de Mme Océane DOS SANTOS"></div>
+               <div class="she-pic"><img class="profil-pictures" src="./assets/img/pictures/shelley-picture.jpg" alt="Photo de Mme Shelley FENOUILLET"></div>
+               <div class="mat-pic"><img class="profil-pictures" src="./assets/img/pictures/da-costa-picture.jpg" alt="Photo de Mr Matthias DA COSTA"></div>
+               <div class="dra-pic"><img class="profil-pictures" src="./assets/img/pictures/dramsy-picture.jpg" alt="Photo de Mr Shahm NOURMAHAMEDE"></div>
+               <div class="oce-name unmodifiable">
+                  <p>Océane DOS SANTOS : Chef de projet</p>
+               </div>
+               <div class="she-name unmodifiable">
+                  <p>Shelley FENOUILLET : Graphiste</p>
+               </div>
+               <div class="mat-name unmodifiable">
+                  <p>Matthias DA COSTA : Motion designer</p>
+               </div>
+               <div class="dra-name unmodifiable">
+                  <p>Shahm NOURMAHAMEDE : Développeur web</p>
+               </div>
+            </div>
+         </div>
+         </div>
+      </footer>
+      <!-- Scripts -->
+      <script src="./assets/scripts/script.js"></script>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   </body>
 </html>
