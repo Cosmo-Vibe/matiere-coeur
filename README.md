@@ -30,3 +30,16 @@
 
 [<img src="./assets/img/pictures/shelley-picture.jpg" width="250"/>](./assets/img/pictures/shelley-picture.jpg) **Shelley FENOUILLET :** Graphiste
 
+---
+
+<div style="display: flex; justify-content: space-between; flex-direction: column; background-color: tomato; padding: 1rem">
+<div style="display: flex; align-items: center;">
+<a href="url"><img src="./assets/img/pictures/da-costa-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Matthias DA COSTA : Motion designer.</div>
+<div style="display: flex; align-items: center;">
+<a href="url"><img src="./assets/img/pictures/dos-santos-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Océane DOS SANTOS : Chef de projet.</div>
+<div style="display: flex; align-items: center;">
+<a href="url"><img src="./assets/img/pictures/dramsy-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Dramsy Shahm N. : Développeur web.</div>
+<div style="display: flex; align-items: center;">
+<a href="url"><img src="./assets/img/pictures/shelley-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Shelley FENOUILLET : Graphiste.</div>
+</div>
+
