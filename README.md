@@ -22,7 +22,7 @@
 
 ### L'équipe
 
-[<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpgraw=true "Matthias le motion designer") **Matthias DA COSTA :** Motion designer.
+[<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpgraw=true "Matthias le motion designer") { border-radius=50% } **Matthias DA COSTA :** Motion designer.
 
 [<img src="./assets/img/pictures/dos-santos-picture.jpg" width="250"/>](./assets/img/pictures/dos-santos-picture.jpgraw=true "Océane la cheffe de projet") **Océane DOS SANTOS :** Cheffe de projet.
 
