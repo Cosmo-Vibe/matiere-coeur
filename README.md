@@ -22,10 +22,11 @@
 
 ### L'équipe
 
-![![Photo of Matthias Da Costa](./assets/img/pictures/da-costa-picture.jpg)] **Matthias DA COSTA :** Motion designer.
+[<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpg) **Matthias DA COSTA :** Motion designer.
 
-![![Photo of Océane Dos Santos](./assets/img/pictures/dos-santos-picture.jpg)] **Océane DOS SANTOS :** Chef de projet.
+[<img src="./assets/img/pictures/dos-santos-picture.jpg" width="250"/>](./assets/img/pictures/dos-santos-picture.jpg) **Océane DOS SANTOS :** Chef de projet.
 
-![![Photo of Dramsy Shahm N.](./assets/img/pictures/dramsy-picture.jpg)] **Dramsy Shahm N. :** Développeur web
+[<img src="./assets/img/pictures/dramsy-picture.jpg" width="250"/>](./assets/img/pictures/dramsy-picture.jpg) **Dramsy Shahm N. :** Développeur web
 
-![![Photo of Shelley Fenouillet](./assets/img/pictures/shelley-picture.jpg)] **Shelley FENOUILLET :** Graphiste
+[<img src="./assets/img/pictures/shelley-picture.jpg" width="250"/>](./assets/img/pictures/shelley-picture.jpg) **Shelley FENOUILLET :** Graphiste
+
