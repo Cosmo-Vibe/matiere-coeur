@@ -1,6 +1,8 @@
 
 # Matière Cœur
 
+[<img src="https://github.com/Cosmo-Vibe/matiere-coeur/assets/150383280/65117a2a-f447-43f0-bf1f-638e6704c01a" width="500"/>](https://github.com/Cosmo-Vibe/matiere-coeur/assets/150383280/65117a2a-f447-43f0-bf1f-638e6704c01a)
+
 ---
 
 ## Site d'Accessibilité & Émotions
