@@ -22,12 +22,8 @@
 
 ### L'équipe
 
-[<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpgraw=true "Matthias le motion designer") { border-radius=50% } **Matthias DA COSTA :** Motion designer.
-
-[<img src="./assets/img/pictures/dos-santos-picture.jpg" width="250"/>](./assets/img/pictures/dos-santos-picture.jpgraw=true "Océane la cheffe de projet") **Océane DOS SANTOS :** Cheffe de projet.
-
-[<img src="./assets/img/pictures/dramsy-picture.jpg" width="250"/>](./assets/img/pictures/dramsy-picture.jpgraw=true "Shahm le développeur") **Dramsy Shahm N. :** Développeur web
-
-[<img src="./assets/img/pictures/shelley-picture.jpg" width="250"/>](./assets/img/pictures/shelley-picture.jpgraw=true "Shelley la graphiste") **Shelley FENOUILLET :** Graphiste
+| [<img src="./assets/img/pictures/da-costa-picture.jpg" width="100"/>](./assets/img/pictures/da-costa-picture.jpg "Matthias le motion designer") | [<img src="./assets/img/pictures/dos-santos-picture.jpg" width="100"/>](./assets/img/pictures/dos-santos-picture.jpg "Océane la cheffe de projet") | [<img src="./assets/img/pictures/dramsy-picture.jpg" width="100"/>](./assets/img/pictures/dramsy-picture.jpg "Shahm le développeur") | [<img src="./assets/img/pictures/shelley-picture.jpg" width="100"/>](./assets/img/pictures/shelley-picture.jpg "Shelley la graphiste") |
+|---|---|---|---|
+| **Matthias DA COSTA :** Motion designer. | **Océane DOS SANTOS :** Cheffe de projet. | **Dramsy Shahm N. :** Développeur web | **Shelley FENOUILLET :** Graphiste |
 
 ---
