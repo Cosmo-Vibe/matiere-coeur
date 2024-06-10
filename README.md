@@ -22,7 +22,6 @@
 
 ### L'équipe
 
-<div style="display: flex; justify-content: space-between; flex-direction: column; background-color: tomato; padding: 1rem">
 [<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpgraw=true "Matthias le motion designer") **Matthias DA COSTA :** Motion designer.
 
 [<img src="./assets/img/pictures/dos-santos-picture.jpg" width="250"/>](./assets/img/pictures/dos-santos-picture.jpgraw=true "Océane la cheffe de projet") **Océane DOS SANTOS :** Cheffe de projet.
@@ -30,6 +29,5 @@
 [<img src="./assets/img/pictures/dramsy-picture.jpg" width="250"/>](./assets/img/pictures/dramsy-picture.jpgraw=true "Shahm le développeur") **Dramsy Shahm N. :** Développeur web
 
 [<img src="./assets/img/pictures/shelley-picture.jpg" width="250"/>](./assets/img/pictures/shelley-picture.jpgraw=true "Shelley la graphiste") **Shelley FENOUILLET :** Graphiste
-</div>
 
 ---
