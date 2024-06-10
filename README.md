@@ -22,24 +22,14 @@
 
 ### L'équipe
 
-[<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpg) **Matthias DA COSTA :** Motion designer.
-
-[<img src="./assets/img/pictures/dos-santos-picture.jpg" width="250"/>](./assets/img/pictures/dos-santos-picture.jpg) **Océane DOS SANTOS :** Chef de projet.
-
-[<img src="./assets/img/pictures/dramsy-picture.jpg" width="250"/>](./assets/img/pictures/dramsy-picture.jpg) **Dramsy Shahm N. :** Développeur web
-
-[<img src="./assets/img/pictures/shelley-picture.jpg" width="250"/>](./assets/img/pictures/shelley-picture.jpg) **Shelley FENOUILLET :** Graphiste
-
----
-
 <div style="display: flex; justify-content: space-between; flex-direction: column; background-color: tomato; padding: 1rem">
-<div style="display: flex; align-items: center;">
-<a href="url"><img src="./assets/img/pictures/da-costa-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Matthias DA COSTA : Motion designer.</div>
-<div style="display: flex; align-items: center;">
-<a href="url"><img src="./assets/img/pictures/dos-santos-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Océane DOS SANTOS : Chef de projet.</div>
-<div style="display: flex; align-items: center;">
-<a href="url"><img src="./assets/img/pictures/dramsy-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Dramsy Shahm N. : Développeur web.</div>
-<div style="display: flex; align-items: center;">
-<a href="url"><img src="./assets/img/pictures/shelley-picture.jpg" height="auto" width="200" style="border-radius:50%; filter: drop-shadow(0 0 0.25rem black); margin-right: 2rem;"></a> Shelley FENOUILLET : Graphiste.</div>
+[<img src="./assets/img/pictures/da-costa-picture.jpg" width="250"/>](./assets/img/pictures/da-costa-picture.jpgraw=true "Matthias le motion designer") **Matthias DA COSTA :** Motion designer.
+
+[<img src="./assets/img/pictures/dos-santos-picture.jpg" width="250"/>](./assets/img/pictures/dos-santos-picture.jpgraw=true "Océane la cheffe de projet") **Océane DOS SANTOS :** Cheffe de projet.
+
+[<img src="./assets/img/pictures/dramsy-picture.jpg" width="250"/>](./assets/img/pictures/dramsy-picture.jpgraw=true "Shahm le développeur") **Dramsy Shahm N. :** Développeur web
+
+[<img src="./assets/img/pictures/shelley-picture.jpg" width="250"/>](./assets/img/pictures/shelley-picture.jpgraw=true "Shelley la graphiste") **Shelley FENOUILLET :** Graphiste
 </div>
 
+---
